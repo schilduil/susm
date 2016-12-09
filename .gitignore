@@ -1,0 +1,6 @@
+# Not include the suapp itself
+suapp
+suapp/*
+
+# Not include the Makefile
+Makefile
