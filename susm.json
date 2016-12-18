@@ -19,7 +19,9 @@
         }
     },
     "modules": {
-        "base": {}
+        "base": {},
+        "kinship": {},
+        "location": {}
     },
     "name": "SU Stud Manager",
     "shortname": "SuSM"
