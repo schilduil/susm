@@ -8,5 +8,5 @@ SCRIPT=$(readlink -f "$0")
 # Path of the current script
 BASEDIR=$(dirname "$SCRIPT")
 
-"$BASEDIR/suapp/start.py" -c "$BASEDIR/susm.json" -t localweb -o "log.level=$LOGLEVEL"
+python3 -m suapp -c "$BASEDIR/susm.json" -t localweb -o "log.level=$LOGLEVEL"
 

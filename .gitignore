@@ -1,6 +1,8 @@
 # Not include the suapp itself
 suapp
 suapp/*
+modlib
+modlib/*
 
 # Not include the Makefile
 Makefile
