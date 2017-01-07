@@ -1,7 +1,7 @@
 {
     "datasource": {
-        "location": "~/.susm/data/",
-        "type": "Plank"
+        "type": "sqlite",
+        "filename": "~/.susm/data/susm.db"
     },
     "log": {
         "filemode": "w",
@@ -20,7 +20,9 @@
     },
     "modules": {
         "base": {},
-        "kinship": {},
+        "kinship": {
+            "method": "pc"
+        },
         "location": {}
     },
     "name": "SU Stud Manager",
