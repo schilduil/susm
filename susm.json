@@ -1,7 +1,7 @@
 {
     "datasource": {
         "type": "sqlite",
-        "filename": "~/.susm/data/susm.db"
+        "filename": "~/.susm/data/susm.sqlite"
     },
     "log": {
         "filemode": "w",
