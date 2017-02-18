@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+#LOGLEVEL="INFO"
 LOGLEVEL="DEBUG"
 
 # Absolute path to the current script.
