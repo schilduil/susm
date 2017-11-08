@@ -6,3 +6,7 @@ modlib/*
 
 # Not include the Makefile
 Makefile
+
+# Do not add try
+try
+try/*
