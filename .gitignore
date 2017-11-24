@@ -10,3 +10,7 @@ Makefile
 # Do not add try
 try
 try/*
+
+# Virtual environment
+.venv
+.venv/
