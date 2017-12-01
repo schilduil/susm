@@ -10,5 +10,5 @@ SCRIPT=$(readlink -f "$0")
 BASEDIR=$(dirname "$SCRIPT")
 
 cd ${BASEDIR}
-python3 -m suapp -c "$BASEDIR/susm.json" -t localweb -o "log.level=$LOGLEVEL"
+python3 -m suapp -c "$BASEDIR/susm.json" -t localweb -o "log.level=$LOGLEVEL,$*"
 
